@@ -1,3 +1,3 @@
 # tic-tac-toe React App
 
-This app is deployed to AWS Amplify [Tic-Tac-Toe React App](https://github.com/facebook/create-react-app)
+This app is deployed to AWS Amplify: [Tic-Tac-Toe React App AWS](https://main.d18b9xpq643225.amplifyapp.com/)
