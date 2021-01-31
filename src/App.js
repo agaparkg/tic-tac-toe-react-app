@@ -83,7 +83,13 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <div id="board">
+        <div
+          id="board"
+          disabled={
+            winner.length === 1 ||
+            (winner === "" && contents.filter((item) => item).length === 9)
+          }
+        >
           <div className="rows">
             <div onClick={this.handleBoxClick} className="columns" id="1">
               {contents[0]}
