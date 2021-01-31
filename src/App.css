@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  width: 300px;
+  margin: 100px auto;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +41,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.columns {
+  cursor: pointer;
+  width: 33%;
+  height: 100px;
+  background-color: black;
+  margin: 1px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.success {
+  color: green;
+}
+
+.draw {
+  color: red;
+}
+
+.success,
+.draw {
+  font-size: 24px;
+  font-weight: bold;
 }
